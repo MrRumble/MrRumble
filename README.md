@@ -8,7 +8,7 @@ Feel free to connect with me or check out my projects to see the work I’ve bee
 
 ## Projects
 
-### Current Project: News Sentiment Analyzer
+### [Current Project: News Sentiment Analyzer](https://github.com/MrRumble/SentimentPress)
 I am currently working on a collaborative group project to develop a full-stack application using the NewsAPI. This application provides users with insightful news summaries by analyzing the sentiment of related news articles. 
 
 - **Backend:** Built in Python, handles sentiment analysis and interacts with the NewsAPI to fetch relevant articles.
