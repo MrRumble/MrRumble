@@ -8,7 +8,7 @@ Feel free to connect with me or check out my projects to see the work I’ve bee
 
 ## Projects
 
-### [Current Project: Wedding Band Song Request App](https://github.com/MrRumble/WeddingBandSongRequestApp)
+### [Current Project: Wedding Band Song Request App](https://github.com/MrRumble/Function-Band-Request-a-Song-App)
 As a guitarist in a wedding and function band, I’ve experienced firsthand the challenges of managing song requests during live performances. Often, these requests come through word of mouth, which can be chaotic and disruptive to the flow of the event. To tackle this issue and enhance the guest experience, I’m developing the Wedding Band Song Request App.
 
 This innovative application allows guests to seamlessly submit their song requests by scanning a QR code at the event. By digitising the request process, the app streamlines communication between guests and the band, making it easier to manage and fulfil requests without interrupting the performance.
