@@ -8,13 +8,27 @@ Feel free to connect with me or check out my projects to see the work I’ve bee
 
 ## Projects
 
+### [Current Project: Wedding Band Song Request App](https://github.com/MrRumble/WeddingBandSongRequestApp)
+As a guitarist in a wedding and function band, I’ve experienced firsthand the challenges of managing song requests during live performances. Often, these requests come through word of mouth, which can be chaotic and disruptive to the flow of the event. To tackle this issue and enhance the guest experience, I’m developing the Wedding Band Song Request App.
+
+This innovative application allows guests to seamlessly submit their song requests by scanning a QR code at the event. By digitising the request process, the app streamlines communication between guests and the band, making it easier to manage and fulfil requests without interrupting the performance.
+
+The goal of this project is to create a more interactive and enjoyable experience for everyone involved, ensuring that guests can easily contribute to the playlist while the band remains focused on delivering an unforgettable performance.
+
+Explore the project to see how technology can enhance live events and simplify song requests!
+
+- **Backend:** Flask (Python) for handling API requests and managing application logic.
+- **Database:** PostgreSQL for storing user data, song requests, event details, and more.
+- **Frontend:** React.js for building an interactive and responsive user interface.
+- **Authentication:** OAuth2 for secure and streamlined user authentication and authorisation.
+
 ### [Current Project: News Sentiment Analyzer](https://github.com/MrRumble/SentimentPress)
-I am currently working on a collaborative group project to develop a full-stack application using the NewsAPI. This application provides users with insightful news summaries by analyzing the sentiment of related news articles. 
+I am currently working on a collaborative group project to develop a full-stack application using the NewsAPI. This application provides users with insightful news summaries by analyzing the sentiment of related news articles. This is paired-project with [Ben Sullivan](https://github.com/bensullivan2002)
 
 - **Backend:** Built in Python, handles sentiment analysis and interacts with the NewsAPI to fetch relevant articles.
 - **Frontend:** Developed with JavaScript and React, displaying the top three and bottom three articles based on sentiment analysis.
 - **Database:** MongoDB is used to store search queries and results to track trends over time.
-- **Local Storage:** Redis is utilized for blacklisting expired JWT tokens as a security measure, with plans to extend its use for storing cookies and tracking user interactions to enhance personalization.
+- **Local Storage:** Redis is utilized for blacklisting expired JWT tokens as a security measure, with plans to extend its use for storing cookies and tracking user interactions to enhance personalisation.
 - **User Features:** Includes secure sign-up and user authentication features to ensure a safe and personalized experience.
 - **Future Work:** Developing and deploying our own API to support app functionalities and ensure a scalable architecture.
 
