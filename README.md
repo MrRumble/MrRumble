@@ -8,6 +8,25 @@ Feel free to connect with me or check out my projects to see the work I’ve bee
 
 ## Projects
 
+### [SentimentPress](https://github.com/MrRumble/SentimentPressV2)
+
+Check it out here! http://sentimentpress-frontend-1.s3-website.eu-west-2.amazonaws.com/
+
+As someone passionate about tech and current affairs, I wanted to build a tool that offers a clearer lens on how different topics are portrayed in the media. **SentimentPress** is a full-stack web app designed to fetch and process real-time news articles and visualise their sentiment trends using powerful NLP models.
+
+Using NewsAPI, the app retrieves article metadata (titles, descriptions, sources) and runs sentiment analysis with a Transformer-based model to score each article as positive or negative. It then summarises standout articles and provides users with a clean, interactive dashboard to explore media tone around a search topic.
+
+This project has been a deep dive into natural language processing, backend pipelines, data handling, and full deployment.
+
+Explore the app to see how modern machine learning tools can turn raw news data into digestible insights.
+
+- **Backend:** Flask (Python) serving RESTful APIs and orchestrating data processing and analysis pipelines.
+- **Frontend:** React.js for dynamic, user-friendly data visualisation and search functionality.
+- **Database:** PostgreSQL for storing articles, sentiment scores, and summaries in a structured format.
+- **NLP Models:** Hugging Face’s `distilbert-base-uncased-finetuned-sst-2-english` (sentiment) and `distilbart-cnn-12-6` (summarisation).
+- **Deployment:** Fully containerised with Docker and hosted on an AWS EC2 instance.
+- **CI/CD:** GitHub Workflows with `pytest` for continuous integration and backend test coverage.
+
 ### [Current Project: Wedding Band Song Request App](https://github.com/MrRumble/Function-Band-Request-a-Song-App)
 As a guitarist in a wedding and function band, I’ve experienced firsthand the challenges of managing song requests during live performances. Often, these requests come through word of mouth, which can be chaotic and disruptive to the flow of the event. To tackle this issue and enhance the guest experience, I’m developing the Wedding Band Song Request App.
 
@@ -22,15 +41,6 @@ Explore the project to see how technology can enhance live events and simplify s
 - **Frontend:** React.js for building an interactive and responsive user interface.
 - **Authentication:** OAuth2 for secure and streamlined user authentication and authorisation.
 
-### [Current Project: News Sentiment Analyzer](https://github.com/MrRumble/SentimentPress)
-I am currently working on a collaborative group project to develop a full-stack application using the NewsAPI. This application provides users with insightful news summaries by analyzing the sentiment of related news articles. This is paired-project with [Ben Sullivan](https://github.com/bensullivan2002)
-
-- **Backend:** Built in Python, handles sentiment analysis and interacts with the NewsAPI to fetch relevant articles.
-- **Frontend:** Developed with JavaScript and React, displaying the top three and bottom three articles based on sentiment analysis.
-- **Database:** MongoDB is used to store search queries and results to track trends over time.
-- **Local Storage:** Redis is utilized for blacklisting expired JWT tokens as a security measure, with plans to extend its use for storing cookies and tracking user interactions to enhance personalisation.
-- **User Features:** Includes secure sign-up and user authentication features to ensure a safe and personalized experience.
-- **Future Work:** Developing and deploying our own API to support app functionalities and ensure a scalable architecture.
 
 ### [Movie Heroes](https://github.com/MrRumble/MovieHeroes)
 A group project focused on developing a movie recommendation system and implementing machine learning. This project showcases the culmination of our skills and knowledge acquired over 12 weeks at Makers Academy. 
